@@ -1,0 +1,24 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "ollama_url": "http://127.0.0.1:11434/api",
+  "temperature": 0.2,
+  "context_limit_tokens": 4096,
+  "max_steps": 6,
+  "max_retries": 2,
+  "workspace_dir": "C:\\Aftaab",
+  "security": {
+    "require_confirmation_medium": false,
+    "require_confirmation_high": true,
+    "require_confirmation_critical": true,
+    "block_critical_system_paths": true
+  },
+  "logging": {
+    "log_file": "pc_insider.log",
+    "log_level": "INFO",
+    "max_bytes": 2097152,
+    "backup_count": 3
+  },
+  "memory": {
+    "db_file": "pc_insider_memory.db"
+  }
+}
